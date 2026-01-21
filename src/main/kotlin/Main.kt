@@ -1,4 +1,5 @@
 fun main() {
-println("medo")
+    var name = "medo"
+println("Hello $name")
 
 }
