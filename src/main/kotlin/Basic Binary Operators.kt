@@ -20,4 +20,12 @@ fun main(){
     val n = ++j
     // Pre-increment: j becomes 6, then b = 6
     // Now j is 6
+
+    var score = 10
+    score += 5   // Same as: score = score + 5
+    score *= 2   // Same as: score = score * 2
+
+    val list1 = listOf(1, 2)
+    val list2 = listOf(3, 4)
+    val bigList = list1 + list2  // Result: [1, 2, 3, 4]
 }
