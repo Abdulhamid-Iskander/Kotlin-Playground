@@ -19,4 +19,22 @@ fun main(){
 // 3. Incrementing
     var letter = 'a'
     letter++                 // Becomes 'b'
+
+    val newLine = '\n'    // New Line (Enter)
+    val tab = '\t'        // Tab space
+    val backslash = '\\'  // To print the backslash itself
+    val copyright = '\u00A9' // Unicode specific character (©)
+
+    val c = '9'
+
+    if (c.isDigit()) {
+        println("It's a number!")
+    }
+
+    val l = 'A'
+    if (l.isLetter() && l.isUpperCase()) {
+        println("Capital Letter")
+    }
+    val intvalue = c.digitToInt()
+    println(intvalue)
 }
