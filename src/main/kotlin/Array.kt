@@ -23,4 +23,11 @@ val arr =arrayOfNulls<String>(5)
 
 //    Array Constructor
     val evenNumber =Array(5){i ->(i*2).toString()}
+val arr1 = intArrayOf(1,2,3)
+val arr2 = intArrayOf(1,2,3)
+
+println(arr1) //  Output: [I@6d06d69c (Memory Address)
+println(arr1.contentToString()) //Output: [1, 2, 3]
+
+
 }
