@@ -28,6 +28,14 @@ val arr2 = intArrayOf(1,2,3)
 
 println(arr1) //  Output: [I@6d06d69c (Memory Address)
 println(arr1.contentToString()) //Output: [1, 2, 3]
+println(arr1 == arr2) // false (Compares References)
+println(arr1.contentEquals(arr2)) // true (Compares Content)
+    val number = intArrayOf(10, 20, 30)
+    val x = number[0]
+    println(x)
+    println(number.contentToString())
+    number[1] = 50
+    println(number.contentToString())
 
 
 }
